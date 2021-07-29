@@ -31,5 +31,5 @@ In Stackdriver logging page create a filter for the logs that you want to export
 
 **3. View your logs**
 
-That's it! In the code above I am sending the JSON as a string and it is stored under rawData so you can easily search within the logs. You also have the parsed logs available for filtering.
+That's it! In the code above I am sending the JSON as a string and it is stored under `message` field so you can easily search within the logs. You also have the parsed logs available for filtering.
 ![alt text](https://github.com/Dkairu/gcp-newrelic-logs-cloud_function/blob/master/screenshots/screenshot2.png)
